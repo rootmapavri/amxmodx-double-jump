@@ -13,7 +13,7 @@ new bool:can_jump[33] = {false}; // Zıplama durumu
 
 public plugin_init()
 {
-    register_plugin(PLUGIN_NAME, PLUGIN_VERSION, PLUGIN_AUTHOR); // Bu satır kaldırıldı
+    // register_plugin(PLUGIN_NAME, PLUGIN_VERSION, PLUGIN_AUTHOR); // Bu satır kaldırıldı
     register_cvar("amx_maxjumps", "1"); // Maksimum zıplama sayısı
     register_cvar("amx_mjadminonly", "0"); // Yalnızca adminler için
 }
